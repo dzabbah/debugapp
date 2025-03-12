@@ -1,0 +1,14 @@
+cinema-app/          # Nom de ton projet (modifiable)
+│── node_modules/    # Dépendances installées (généré après npm install)
+│── public/          # Fichiers statiques
+│   ├── index.html   # Fichier HTML principal
+│   ├── favicon.ico  # Icône du site
+│── src/             # Code source de l’application
+│   ├── components/  # Composants réutilisables
+│   │   ├── Counter.js  # Composant du compteur
+│   ├── App.js       # Composant principal
+│   ├── index.js     # Point d’entrée de l’application
+│   ├── styles.css   # Fichier CSS global
+│── .gitignore       # Fichiers à ignorer par Git
+│── package.json     # Liste des dépendances et scripts
+│── README.md        # Documentation du projet
