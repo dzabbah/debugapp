@@ -1,0 +1,12 @@
+debug-example/               # Racine du projet
+├── public/                  # Contient les fichiers statiques
+│   ├── index.html           # Fichier HTML principal
+│   └── ...
+├── src/                     # Code source de l'application
+│   ├── App.js               # Composant principal de l'application
+│   ├── ChildComponent.js    # Composant enfant
+│   ├── index.js             # Point d'entrée JavaScript (où ReactDOM.render est appelé)
+│   └── ...
+├── package.json             # Fichier de configuration du projet
+├── package-lock.json        # Dépendances exactes installées
+└── node_modules/            # Dépendances du projet (installées avec npm)
